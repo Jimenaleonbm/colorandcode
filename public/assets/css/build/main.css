@@ -272,7 +272,7 @@ body {
   opacity: .35;
   z-index: 10; }
 
-@media (max-width: 1180px) {
+@media (max-width: 767px) {
   .l-side-nav {
     display: none; } }
 
@@ -283,6 +283,11 @@ body {
   margin: 0;
   padding: 0;
   list-style: none; }
+
+@media (max-width: 1180px) and (min-width: 767px) {
+  .l-main-content {
+    width: 80%;
+    margin: 0 auto; } }
 
 .l-section {
   position: absolute;
