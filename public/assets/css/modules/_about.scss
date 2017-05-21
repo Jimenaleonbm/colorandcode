@@ -45,10 +45,11 @@
 .about--banner h2 {
 	position: relative;
 	margin-top: 35px;
-	font-size: 68px;
+	font-size: 55px;
 	font-weight: 900;
 	line-height: 1;
 	z-index: 1;
+	margin-bottom: 2.5em;
 }
 
 .about--banner h2::before {
@@ -60,6 +61,7 @@
 	height: 30px;
 	background-color: $highlight;
 	border-radius: 50%;
+	z-index: -1;
 }
 
 .about--banner h2::after {

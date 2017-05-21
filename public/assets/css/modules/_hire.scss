@@ -105,6 +105,7 @@
 	width: 100%;
 	justify-content: space-between;
 	margin-bottom: 60px;
+	flex-wrap: wrap;
 }
 
 .work-request--information .information-name,
@@ -114,6 +115,11 @@
 	height: 50px;
 	font-size: 30px;
 	font-weight: 300;
+}
+
+.work-request--information .information-message{
+	width: 100%;
+	margin-top: 20px;
 }
 
 .work-request--information input[type="text"],
@@ -129,7 +135,7 @@
 .work-request--information input[type="text"]:focus,
       .work-request--information input[type="email"]:focus {
 	outline: none;
-	background-color: $black;
+	background-color: rgba(255, 255, 255, 0.3);
 }
 
 .work-request--information label {
