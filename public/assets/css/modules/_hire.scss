@@ -178,10 +178,16 @@
 }
 
 @media (max-width: 600px) {
+	.hire h2 {
+		margin-bottom: 0;
+		line-height: normal;
+		margin-top: 30px;
+	}
 	.work-request--options label {
 		width: 150px;
 		margin-bottom: 15px;
 		font-size: 14px;
+		line-height: inherit;
 	}
 
 	.work-request--options input[type="checkbox"]:checked + label svg {

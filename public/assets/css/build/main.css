@@ -653,7 +653,9 @@ body {
   .intro--banner::before, .intro--banner::after {
     display: none; }
   .intro--banner h1 {
-    margin-top: 0; }
+    margin-top: 0;
+    font-size: 3rem;
+    width: 100%; }
   .intro--options {
     display: none; } }
 
@@ -964,7 +966,8 @@ body {
     left: 310px; }
   .about--banner h2 {
     margin-top: 0;
-    font-size: 55px; }
+    font-size: 45px;
+    margin-bottom: 20px; }
   .about--banner h2::before {
     top: 43px;
     left: 214px; }
@@ -1200,10 +1203,15 @@ body {
     justify-content: space-between; } }
 
 @media (max-width: 600px) {
+  .hire h2 {
+    margin-bottom: 0;
+    line-height: normal;
+    margin-top: 30px; }
   .work-request--options label {
     width: 150px;
     margin-bottom: 15px;
-    font-size: 14px; }
+    font-size: 14px;
+    line-height: inherit; }
   .work-request--options input[type="checkbox"]:checked + label svg {
     width: 12px; }
   .work-request--information {
