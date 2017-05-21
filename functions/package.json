@@ -1,0 +1,9 @@
+{
+    "name": "esteban-lopez",
+    "description": "web page esteban-lopez",
+    "dependencies": {
+        "firebase-admin": "5.0.0",
+        "firebase-functions": "0.5.7"
+    },
+    "private": true
+}
