@@ -1,5 +1,3 @@
-
- var database = firebase.database();
 function send(form){
     var name = document.getElementById("name");
     var email = document.getElementById("email");
@@ -9,7 +7,7 @@ function send(form){
 
 
 function sendEmail(name,email,message){
-    database().ref("messages").push({
+    firebase.database().ref("messages").push({
         name:name,
         email:email,
         message:message
